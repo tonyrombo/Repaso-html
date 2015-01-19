@@ -9,7 +9,7 @@
 	<body>
 		<header>
 			<h1>Un Blog Cualquiera</h1>
-			<ul id="nav">
+			<ul class="nav">
 				<li><a href="">Inicio</a></li>
 				<li><a href="">Acerca de</a></li>
 				<li><a href="">Productos</a></li>
@@ -18,7 +18,7 @@
 			</ul>
 		</header>
 
-		<div id="content">
+		<div class="wrapper">
 			<div class="sidebar">
 				<h3>Artículos relacionados</h3>
 
@@ -99,6 +99,103 @@
 
 				<p>Berners Lee dirige desde 2007 el World Wide Web Consortium (W3C), el cual desarrolla y mantiene esos y otros estándares que permiten a los ordenadores de la Web almacenar y comunicar efectivamente diferentes formas de información.</p>
 			</div>
-		</div>
+
+			<div class="table">
+				<table border="1" class="calendar">
+					<h2>Calendario</h2>
+					<tbody>
+						<thead>
+							<tr class="title">
+								<th>Lunes</th>
+								<th>Martes</th>
+								<th>Miercoles</th>
+								<th>Jueves</th>
+								<th>Viernes</th>
+								<th>Sábado</th>
+							</tr>
+						</thead>
+
+						<tr class="fila1">
+							<td>1</td>
+							<td>2</td>
+							<td>3</td>
+							<td>4</td>
+							<td>5</td>
+							<td>6</td>
+						</tr>
+
+						<tr class="fila2">
+							<td>7</td>
+							<td>8</td>
+							<td>9</td>
+							<td>10</td>
+							<td>11</td>
+							<td>12</td>
+						</tr>
+
+						<tr>
+							<td>13</td>
+							<td>14</td>
+							<td>15</td>
+							<td>16</td>
+							<td>17</td>
+							<td>18</td>
+						</tr>
+
+						<tr>
+							<td>19</td>
+							<td>20</td>
+							<td>21</td>
+							<td>22</td>
+							<td>23</td>
+							<td>24</td>
+						</tr>
+
+						<tr>
+							<td>25</td>
+							<td>26</td>
+							<td>27</td>
+							<td>28</td>
+							<td>29</td>
+							<td>30</td>
+						</tr>
+						
+						<tr>
+							<td>31</td>
+							<td>1</td>
+							<td>2</td>
+							<td>3</td>
+							<td>4</td>
+							<td>5</td>
+						</tr>
+
+					</tbody>
+				</table>
+			</div><!--table-->
+
+			<!--CONTACT FORM-->
+			<div class="contact">
+
+				<h2>Contacto</h2>
+
+				<form action="contact">
+
+					<label>Nombre:</label>
+					<input type="text" />
+
+					<Label>Email:</Label>
+					<input type="text" />
+
+					<label>Teléfono</label>
+					<input type="text" />
+
+					<label>Mensaje</label>
+					<textarea>Hola escriba aqui</textarea>						
+ 					<input type="submit" class="send" value="send"/>
+
+				</form>
+			</div><!--CLOSE CONTACT-->
+
+		</div><!--Wrapper-->
 	</body>
 </html>

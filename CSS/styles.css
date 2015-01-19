@@ -4,7 +4,28 @@
 }
 
 header{
-	background-color: #ccc;
+	background-color: #6699CC;
+	height: 70px;
+}
+
+h1{
+	padding-top: 10px;
+}
+
+.nav{
+	width: 50%;
+	float: right;
+}
+
+.nav li{
+	float: left;
+	width: 15%;
+	padding: 0 2% 0 2%;
+	list-style: none;
+}
+
+.nav li a{
+	text-decoration: none;
 }
 
 .sidebar{
@@ -15,4 +36,34 @@ header{
 .content{
 	width: 60%;
 	float: left;
+	margin-bottom: 20px;
+}
+
+.table{
+	width: 30%;
+	float: left;
+	margin: 0 5% 80px 30%;
+}
+
+.calendar{
+	border-collapse: collapse;
+}
+
+.contact{
+	width: 25%;
+	float: left;
+}
+
+.contact form label{
+	width: 30%;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.contact form input{
+	margin-bottom: 10px;
+}
+
+.send{
+	margin-left: 30%
 }
